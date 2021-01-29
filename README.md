@@ -5,9 +5,7 @@ _continuation fork of the project_
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/DrMerfy.overtype.svg)](https://marketplace.visualstudio.com/items?itemName=DrMerfy.overtype)
 [![GitHub issues](https://img.shields.io/github/issues/DrMerfy/vscode-overtype.svg)](https://github.com/DrMerfy/vscode-overtype/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/DrMerfy/vscode-overtype.svg)](https://github.com/DrMerfy/vscode-overtype/pulls)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END --> 
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 Because some people actually press the Insert key on purpose.
 
@@ -124,8 +122,9 @@ Thanks goes to these wonderful people:
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/GitMensch"><img src="https://avatars3.githubusercontent.com/u/6699539?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Sobisch</b></sub></a><br /><a href="#projectManagement-GitMensch" title="Project Management">📆</a> <a href="https://github.com/DrMerfy/vscode-overtype/commits?author=GitMensch" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AdamMaras"><img src="https://avatars.githubusercontent.com/u/7979550?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adam Maras</b></sub></a><br /><a href="https://github.com/DrMerfy/vscode-overtype/commits?author=AdamMaras" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/DrMerfy"><img src="https://avatars3.githubusercontent.com/u/21154979?v=4?s=100" width="100px;" alt=""/><br /><sub><b>George Melissourgos</b></sub></a><br /><a href="#projectManagement-DrMerfy" title="Project Management">📆</a> <a href="https://github.com/DrMerfy/vscode-overtype/commits?author=DrMerfy" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/GitMensch"><img src="https://avatars3.githubusercontent.com/u/6699539?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Sobisch</b></sub></a><br /><a href="#projectManagement-GitMensch" title="Project Management">📆</a> <a href="https://github.com/DrMerfy/vscode-overtype/commits?author=GitMensch" title="Code">💻</a></td>
   </tr>
 </table>
 
