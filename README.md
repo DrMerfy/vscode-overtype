@@ -3,6 +3,8 @@
 ⚠️ As of November 2024, [VS Code supports natively overtype](https://github.com/microsoft/vscode-docs/blob/vnext/release-notes/v1_96.md#overtype-mode). For this reason, this extension is now archived. 
 Thank you all for contributing in this project!
 
+For an overview of the differences between this extension and the native functionality, [take a look at this](https://github.com/DrMerfy/vscode-overtype/issues/48).
+
 ---
 
 # overtype for vscode
