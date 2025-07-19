@@ -60,13 +60,22 @@ Some additional tips for using overtype paste:
 - I know this doesn't work like [insert editor here]. Every single freaking editor handles overtype paste differently. It's not my fault.
 - If you think you have a saner way to handle this, for the love of everything warm and cuddly, [MAKE A PULL REQUEST](https://github.com/DrMerfy/vscode-overtype/pulls).
 
-Without further ado...
 
+### Other options
+#### Paste
 ```json
 "overtype.paste": true
 ```
 
 > When in overtype mode, uses overtype behavior when pasting text.
+
+#### Hard Backspace
+```json
+"overtype.hardBackspace": true
+```
+> When in overtype mode, backspaced characters become spaces.
+
+![Basic demo](images/hard-backspace-demo.gif)
 
 ### Adjusted indicators in status bar (abbreviated, localized or none)
 

@@ -1,6 +1,6 @@
 import * as vscode from "vscode";
 
-import { overtypeBeforePaste, overtypeBeforeType } from "./behavior";
+import { overtypeBeforeBackspace, overtypeBeforePaste, overtypeBeforeType } from "./behavior";
 import { configuration, reloadConfiguration } from "./configuration";
 import { getMode, resetModes, toggleMode } from "./mode";
 import { createStatusBarItem, destroyStatusBarItem, updateStatusBarItem } from "./statusBarItem";
@@ -16,6 +16,7 @@ export const activate = (context: vscode.ExtensionContext) => {
 
         vscode.commands.registerCommand("type", typeCommand),
         vscode.commands.registerCommand("paste", pasteCommand),
+        vscode.commands.registerCommand("hardBackspace", backspaceCommand),
 
         vscode.window.onDidChangeActiveTextEditor(activeTextEditorChanged),
 
@@ -120,6 +121,18 @@ const typeCommand = (args: { text: string }) => {
     }
 
     return vscode.commands.executeCommand("default:type", args);
+}
+
+const backspaceCommand = () => {
+    if (shouldPerformOvertype() && configuration.hardBackspace) {
+        const editor = vscode.window.activeTextEditor
+        if (editor) {
+            overtypeBeforeBackspace(editor)
+        }
+        return
+    }
+
+    return vscode.commands.executeCommand("deleteLeft");
 }
 
 const pasteCommand = (args: { text: string, pasteOnNewLine: boolean }) => {

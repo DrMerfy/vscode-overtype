@@ -55,3 +55,26 @@ export const overtypeBeforePaste = (editor: vscode.TextEditor, text: string, pas
         }
     });
 }
+
+export const overtypeBeforeBackspace = (editor: vscode.TextEditor) => {
+    let selection = editor.selection
+    if (selection.isEmpty) {
+        // select the character to the left of the cursor
+        selection = new vscode.Selection(
+            selection.start.translate(0, -1),
+            selection.start
+        )
+    }
+
+    // replace text selection with spaces
+    const text = editor.document.getText(selection)
+    editor.edit((editBuilder) => {
+        editBuilder.replace(selection, " ".repeat(text.length))
+    })
+
+    // move the cursor to the left if the original selection was empty
+    if (editor.selection.isEmpty) {
+        const newPos = editor.selection.start.translate(0, -1)
+        editor.selection = new vscode.Selection(newPos, newPos)
+    }
+}

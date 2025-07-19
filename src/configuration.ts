@@ -28,6 +28,7 @@ const loadConfiguration = () => {
 
     return {
         paste: overtypeConfiguration.get<boolean>("paste"),
+        hardBackspace: overtypeConfiguration.get<boolean>("hardBackspace"),
         perEditor: overtypeConfiguration.get<boolean>("perEditor") ? true : false,
 
         labelInsertMode: overtypeConfiguration.get<string>("labelInsertMode"),
@@ -57,6 +58,7 @@ export const reloadConfiguration = () => {
     if (configuration.labelInsertMode === newConfiguration.labelInsertMode &&
         configuration.labelOvertypeMode === newConfiguration.labelOvertypeMode &&
         configuration.paste === newConfiguration.paste &&
+        configuration.hardBackspace === newConfiguration.hardBackspace &&
         configuration.perEditor === newConfiguration.perEditor &&
         configuration.defaultCursorStyle === newConfiguration.defaultCursorStyle &&
         configuration.secondaryCursorStyle === newConfiguration.secondaryCursorStyle) {
@@ -66,6 +68,7 @@ export const reloadConfiguration = () => {
     configuration.labelInsertMode = newConfiguration.labelInsertMode;
     configuration.labelOvertypeMode = newConfiguration.labelOvertypeMode;
     configuration.paste = newConfiguration.paste;
+    configuration.hardBackspace = newConfiguration.hardBackspace;
     configuration.perEditor = newConfiguration.perEditor;
     configuration.secondaryCursorStyle = newConfiguration.secondaryCursorStyle;
 

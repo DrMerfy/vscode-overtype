@@ -60,6 +60,11 @@
                     "type": "string",
                     "default": "Overtype",
                     "description": "Label text in the status bar shown during Overtype Mode, may be empty."
+                },
+                "overtype.hardBackspace": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "When in overtype mode, backspaced characters become spaces."
                 }
             }
         },
@@ -79,6 +84,11 @@
                 "command": "overtype.toggle",
                 "key": "ctrl+shift+i",
                 "mac": "cmd+shift+i",
+                "when": "editorFocus"
+            },
+            {
+                "key": "backspace",
+                "command": "hardBackspace",
                 "when": "editorFocus"
             }
         ]
