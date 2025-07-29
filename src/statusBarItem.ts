@@ -39,9 +39,13 @@ export const updateStatusBarItem = (overtype: boolean | null) => {
     if (overtype) {
         sbiText = configuration.labelOvertypeMode;
         statusBarItem.tooltip = "Overtype Mode, click to change to Insert Mode";
+        statusBarItem.color = new vscode.ThemeColor('statusBarItem.warningForeground');
+        statusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.warningBackground');
     } else {
         sbiText = configuration.labelInsertMode;
         statusBarItem.tooltip = "Insert Mode, click to change to Overtype Mode";
+        statusBarItem.color = new vscode.ThemeColor('statusBarItem.foreground');
+        statusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.background');
     }
     if (sbiText === undefined || sbiText == null) sbiText = "";
 

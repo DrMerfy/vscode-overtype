@@ -155,6 +155,7 @@ Thanks goes to these wonderful people:
       <td align="center" valign="top" width="14.28%"><a href="https://przybyl.io"><img src="https://avatars.githubusercontent.com/u/2318282?v=4?s=100" width="100px;" alt="Mateusz Przybył"/><br /><sub><b>Mateusz Przybył</b></sub></a><br /><a href="https://github.com/DrMerfy/vscode-overtype/commits?author=MrSimbax" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/DrMerfy"><img src="https://avatars.githubusercontent.com/u/21154979?v=4?s=100" width="100px;" alt="George Melissourgos"/><br /><sub><b>George Melissourgos</b></sub></a><br /><a href="#projectManagement-DrMerfy" title="Project Management">📆</a> <a href="https://github.com/DrMerfy/vscode-overtype/commits?author=DrMerfy" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/corpulentcoffee"><img src="https://avatars.githubusercontent.com/u/3958448?v=4?s=100" width="100px;" alt="Dave Shifflett"/><br /><sub><b>Dave Shifflett</b></sub></a><br /><a href="https://github.com/DrMerfy/vscode-overtype/commits?author=corpulentcoffee" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/juarezr"><img src="https://avatars.githubusercontent.com/u/576780?v=4?s=100" width="100px;" alt="Juarez Rudsatz"/><br /><sub><b>Juarez Rudsatz</b></sub></a><br /><a href="https://github.com/DrMerfy/vscode-overtype/commits?author=juarezr" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
